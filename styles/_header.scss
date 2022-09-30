@@ -1,0 +1,61 @@
+header {
+    /*background: rgb(123,163,118);
+    background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
+    border-bottom: 1px solid white;
+    height: 100px;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: rgb(123,163,118);
+    background: none;
+    border: none;  
+}
+.top-logo:hover {
+        background-color: rgb(123,163,118);
+        color: black;
+        border-radius: 50px;
+}
+span {
+    color: white;
+}
+.navi {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;
+    width: 152px;
+    height: 64px;
+    margin: 20px;
+    background: rgb(123,163,118);
+    background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+    border-radius: 50px;
+    border: none;
+}
+.nav:hover {
+    background-color: white;
+    color: black;
+}
