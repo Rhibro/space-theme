@@ -39,17 +39,20 @@ h4 {
 span {
     color: white;
 }
+
 .logo:hover {
-    background-color: rgb(123,163,118);
+    background-color: rgb(123, 163, 118);
     color: black;
     border-radius: 50px;
 }
+
 .navi {
     display: flex;
     align-self: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
+
 .nav {
     font-style: normal;
     font-weight: 400;
@@ -67,10 +70,12 @@ span {
     border-radius: 50px;
     border: none;
 }
+
 .nav:hover {
     background-color: white;
     color: black;
 }
+
 main {
     position: relative;
     display: flex;
@@ -82,9 +87,11 @@ main {
     width: 100%;
     margin-bottom: 100px;
 }
+
 .about {
     width: 100%;
 }
+
 h2 {
     font-family: 'Orbitron';
     font-style: normal;
@@ -110,7 +117,7 @@ p {
     align-content: stretch;
 }
 
-.about:hover{
+.about:hover {
     background-color: #7ba376;
     border-radius: 30px;
     border: none;
