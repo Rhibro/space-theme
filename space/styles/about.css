@@ -39,17 +39,20 @@ h4 {
 span {
     color: white;
 }
+
 .logo:hover {
-    background-color: rgb(123,163,118);
+    background-color: rgb(123, 163, 118);
     color: black;
     border-radius: 50px;
 }
+
 .navi {
     display: flex;
     align-self: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
+
 .nav {
     font-style: normal;
     font-weight: 400;
@@ -67,10 +70,12 @@ span {
     border-radius: 50px;
     border: none;
 }
+
 .nav:hover {
     background-color: white;
     color: black;
 }
+
 main {
     position: relative;
     display: flex;
@@ -78,18 +83,15 @@ main {
     justify-content: space-evenly;
     align-items: flex-start;
     font-style: normal;
-    height: 1200px;
     margin: 20px;
-    width: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
 }
-.abt-grd {
-    display: grid;
-    grid-template-columns: 1fr,1fr, 1fr, 1fr, 1fr;
-    grid-template-rows:1fr, 1fr, 1fr,1fr, 1fr, 1fr;
-    width: 700px;
-    height: 100;
-    grid-gap: 10px;
+
+.about {
+    width: 100%;
 }
+
 h2 {
     font-family: 'Orbitron';
     font-style: normal;
@@ -112,80 +114,14 @@ p {
     letter-spacing: 0.02em;
     color: white;
     margin: 20px;
+    align-content: stretch;
 }
 
-.info {
-    margin: 20px;
-    width: 900px;
-}
-.info:hover{
+.about:hover {
     background-color: #7ba376;
-    border-radius: 50px;
+    border-radius: 30px;
     border: none;
 }
-.grd-item1{
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-
-}
-.grd-item2{
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-
-}
-.grd-item3{
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-
-}
-/*
-.grd-item4{
-    grid-row: 4 / 5;
-    grid-column: 1 / 2;
-}
-.team2{
-    grid-row: 4 / 5;
-    grid-column: 2 / 3;
-}
-.team3{
-    grid-row: 4 / 5;
-    grid-column: 3 / 4;
-}
-.team4{
-    grid-row: 4 / 5;
-    grid-column: 4 / 5;
-}
-.imgs{
-    margin: 20px;
-    width: 900px;
-}
-.img-spacegarden-3 {
-    width: 400px;
-    height: 350px;
-    margin: 0px;
-    border-radius: 20px;
-    border: 2px solid white;
-}*/
-
-/*.btn-read {
-    width: 152px;
-    height: 64px;
-    margin: 20px;
-    color: white;
-    background: rgb(123, 163, 118);
-    background: radial-gradient(circle, rgba(123, 163, 118, 1) 18%, rgba(68, 87, 93, 1) 65%, rgba(2, 6, 2, 1) 100%);
-    border-radius: 50px;
-    border: none;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-}
-.btn-read:hover {
-    background-color: white;
-    color: black;
-}*/
 
 footer {
     height: 100px;
