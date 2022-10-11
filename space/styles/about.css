@@ -151,10 +151,10 @@ footer {
     color: white;
     border: none;
     margin: 20px;
+    border-radius: 50px;
 }
 
 .site-map-btn:hover {
     background-color: white;
     color: black;
-    border-radius: 50px;
 }
